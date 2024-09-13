@@ -1,0 +1,3 @@
+<?php
+
+# All good here.
