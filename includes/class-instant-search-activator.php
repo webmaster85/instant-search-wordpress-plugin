@@ -3,7 +3,7 @@
 /**
  * Fired during plugin activation
  *
- * @link       https://https://www.marincas.net
+ * @link       https://www.marincas.net
  * @since      1.0.0
  *
  * @package    Instant_Search

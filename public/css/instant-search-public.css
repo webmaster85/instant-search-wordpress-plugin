@@ -1,0 +1,228 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+* {
+box-sizing: border-box;
+}
+#search-results.list .search-result img {
+width: -webkit-fill-available;
+}
+#search-results.grid .search-result img {   
+    width: 100%;    
+}
+#search-results {	
+    display:none;
+    width: 100%;
+    max-width: 1100px;
+    text-align:center;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#search-results * {
+    font-size:1em!important;
+    line-height: 1em!important;
+    color:#000000;
+}
+#search-results a, .search-result a {
+    font-weight:bold;
+    font-size:1.15em;
+}
+#search-results img {
+    margin-bottom:10px;	
+}
+#search-results.inline {
+    display: none;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1000;
+}
+#inline-search-results {
+    display: none;
+    width: inherit; 
+    background: white;
+    text-align:center;
+    padding: 0px;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: absolute;
+    z-index: 1000;
+} 
+#inline-search-results.list .search-result  {
+display: block;
+    max-width: 100%;
+    margin: auto;
+    padding: 5px;	
+}
+#search-results.list .search-result  {
+display: block;
+    max-width: 50%;
+    margin: auto;
+    padding: 25px;	
+}
+#inline-search-results.list .search-result img,
+#search-results.list .search-result img {
+    width: -webkit-fill-available;
+}
+#inline-search-results h2 {
+        font-size: 1em !important;
+    line-height: 1em !important;
+    color: #000000;	
+}
+#inline-search-results.grid .search-result,
+#search-results.grid .search-result {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+#inline-search-results.grid .search-result img,
+#search-results.grid .search-result img {
+    width: 100%;
+}
+form#searchform input[type=text] {
+padding: 10px;
+font-size: 1em;
+border: 1px solid grey;
+margin:auto;
+min-width:50%;
+}
+input#s2 {
+    padding:10px;
+}
+.search-overlay {
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-wrapper2 {
+    position: relative;  
+}
+#s {
+    flex-grow: 1; 
+    padding-right: 40px; 
+}
+#voice-search-btn, #voice-search-btn2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #333; 
+    padding: 10px;
+}
+#voice-search-btn i, #voice-search-btn2 i {
+    font-size: 20px; 
+}
+.modal {
+display: none; 
+position: fixed; 
+z-index: 1; 
+padding-top: 100px; 
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%; 
+overflow: auto; 
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: rgba(0, 0, 0, 1);
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 100%;
+height:100%;
+position:fixed;
+top:20px;
+z-index:99999;
+}
+.close {
+float: right;
+    font-weight: bold;
+    position: fixed;
+    top: 40px;
+    right: 0px;
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    z-index:9999;
+}
+.close:hover,
+.close:focus {
+color: #aaaaaa;
+text-decoration: none;
+cursor: pointer;
+}
+.view-all {
+    margin-top: 20px;
+    text-align: center;	
+}
+.view-all .button {
+    margin-top: 20px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #0077ff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    margin-left:10px;
+    margin-top:5px;
+    color: #0077ff!important;	
+    min-width:100px;
+}
+.view-all .button:hover {
+    opacity:.75;
+}
+.middleform {
+    text-align:center;
+}
+@media only screen and (max-width: 767px) {	
+#search-results {	
+    width: 90%;        
+    padding: 5px;    
+}
+#search-results.list .search-result {      
+    width: 90%; 
+    padding: 5px;
+}
+#search-results.grid .search-result {  
+    width: 40%;   
+}
+form#searchform input[type=text] { 
+min-width:100%;
+}
+}
