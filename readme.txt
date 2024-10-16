@@ -3,13 +3,13 @@ Contributors: webmaster85
 Donate link: https://instant-search.net/#donate
 Tags: code, search, ajax search, live search, woocommerce search
 Requires at least: 4.7
-Tested up to: 6.5.5
-Stable tag: 1.0.9
+Tested up to: 6.6.2
+Stable tag: 1.1.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A WordPress search plugin with live and voice search.
+A WordPress search plugin with live and voice search. 
 
 == Description ==
 
@@ -17,7 +17,7 @@ A WordPress search plugin with live and voice search.
 
 Use the shortcode `[instant_search]` to display a search form anywhere.
 
-[youtube http://www.youtube.com/watch?v=FiGqk3zcR5Y]
+[youtube https://www.youtube.com/watch?v=Zui-0LBq6Lc]
 
 **Demos:**
 You can see how it works [here](https://instant-search.net/#demos/).
@@ -87,7 +87,7 @@ Of course! I am always trying to improve the plugin, so for any feedback, feel f
 
 = How can I support Instant Search? =
 
-You can support the development of the WordPress plugin Instant Search by making a [donation](https://instant-search.net/#donate/). Your contributions enable me to dedicate more time and resources to improving the plugin’s features, performance, and compatibility with various WordPress environments.
+You can support the development of the WordPress plugin Instant Search by making a [donation](https://instant-search.net/#donate/). Your contributions enable me to dedicate more time and resources to improving the pluginâ€™s features, performance, and compatibility with various WordPress environments.
 
 = Why are donations crucial? =
 
@@ -99,7 +99,7 @@ Donations are utilized to fund activities such as acquiring advanced web develop
 
 = Can I contribute if I am unable to donate money? =
 
-Absolutely! If you’re unable to make a monetary donation, you can still contribute to the development of the plugin by providing feedback, reporting bugs, suggesting new features, or even contributing code improvements. Every contribution, regardless of its form, is highly appreciated and helps to strengthen the plugin’s community and capabilities.
+Absolutely! If youâ€™re unable to make a monetary donation, you can still contribute to the development of the plugin by providing feedback, reporting bugs, suggesting new features, or even contributing code improvements. Every contribution, regardless of its form, is highly appreciated and helps to strengthen the pluginâ€™s community and capabilities.
 
 == Dev Notes ==
 Everything is free, so enjoy!
@@ -108,6 +108,10 @@ Everything is free, so enjoy!
 Marincas Marius Mugurel - www.marincas.net
 
 == Changelog ==
+
+= 1.1.0 =
+
+Improvements added.
 
 = 1.0.9 =
 
