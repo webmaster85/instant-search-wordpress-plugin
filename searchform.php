@@ -52,7 +52,3 @@ btn.onclick = function() {
 		}
 });
 </script>
-
-
-
-
