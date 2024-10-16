@@ -59,7 +59,7 @@ span.is-view-analytics {
 span.is-view-analytics:hover, #flush-search-queries:hover, .close_settings:hover {
 	opacity:.75; 
 	background:transparent;
-}
+	}
 .donate-button {
 	outline: none;
 	cursor: pointer;
@@ -72,7 +72,7 @@ span.is-view-analytics:hover, #flush-search-queries:hover, .close_settings:hover
 	text-align: center;
 	padding: 5px;
 	margin-top:5px;
-	color: #0077ff;
+	color: #0077ff;	
 }
 a.donate-button {	
 	text-decoration:none;
@@ -152,7 +152,7 @@ div.is-title h3 {
     overflow: auto;
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 9999;
+    z-index: 9999;	
 }
 .modal-window {
     position: relative;
@@ -172,9 +172,16 @@ div.is-title h3 {
     padding-right: 5px;
 	cursor: pointer;
 	font-size:small;
-}
+}   
 .notify-badge{
-   font-size: 8px;
+    background-color: #fa3e3e;
+    border-radius: 2px;
+    color: white;
+    padding: 0px 3px;
+    font-size: 10px;
+    position: absolute;
+    top: -1px;
+    left: 8px;
 }
 @media only screen and (max-width: 767px) {	
 .settings-wrapper {   
