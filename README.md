@@ -12,7 +12,7 @@
 
 ## What it does
 
-nstant Search adds a search form to your WordPress site. Visitors see results the moment they start typing. No waiting, no page reloads. They can also search by voice: just tap the microphone and speak.
+Instant Search adds a search form to your WordPress site. Visitors see results the moment they start typing. No waiting, no page reloads. They can also search by voice: just tap the microphone and speak.
 Works with any theme and WooCommerce out of the box: shops, blogs, portfolios, directories.
 
 Add [instant_search] to any page, post, widget, or header to display the search form.
