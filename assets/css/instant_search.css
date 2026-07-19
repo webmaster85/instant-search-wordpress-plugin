@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+}
+#search-results.list .search-result img {
+  width: 100%;
+}
+#search-results.grid .search-result img {
+    width: 100%;    
+}
+#search-results {	
+	display:none;
+    width: 100%;
+    max-width: 1100px;
+	text-align:center;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#search-results * {
+	font-size:1em!important;
+	line-height: 1em!important;
+	color:#000000;
+}
+#search-results a, .search-result a {
+	font-weight:bold;
+	font-size:1.15em;
+}
+#search-results img {
+	margin-bottom:10px;	
+}
+#search-results.inline {
+    display: none;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1000;
+}
+#inline-search-results {
+    display: none;
+    width: 100%; 
+    background: white;
+	text-align:center;
+    padding: 0px;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: absolute;
+    z-index: 1000;
+	left:0px!important;
+} 
+#inline-search-results.list .search-result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ececec;
+}
+#inline-search-results.list .search-result:last-of-type {
+    border-bottom: 0;
+}
+#inline-search-results.list .search-result:hover {
+    opacity: 1;
+    background: #f7f7f7;
+}
+#inline-search-results.list .search-result img {
+    flex: 0 0 56px;
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px;
+    max-width: 56px !important;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #f3f3f3;
+}
+#inline-search-results.list .search-result .search-result-body {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+}
+#inline-search-results.list .search-result h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+    font-weight: 600;
+    color: #222;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#inline-search-results.list .search-result .search-result-price {
+    display: block;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #cc2936;
+}
+#inline-search-results.list .search-result p {
+    margin: 3px 0 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #888;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#search-results.list .search-result  {
+  display: block;
+    max-width: 50%;
+    margin: auto;
+    padding: 25px;
+}
+#search-results.list .search-result .search-result-price,
+#search-results.list .search-result .search-result-price * {
+    color: #cc2936;
+}
+#search-results.list .search-result .search-result-price {
+    display: block;
+    margin-top: 6px;
+    font-weight: 600;
+}
+.search-result { display: block; text-decoration: none; }
+.search-result:hover { opacity: .75; }
+#inline-search-results h2 {
+	font-size: 1em !important;
+    line-height: 1em !important;
+    color: #000000;	
+	padding-top:10px;
+}
+#search-results.grid .search-result {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+#search-results.grid .search-result img {
+    width: 100%;
+}
+#inline-search-results.grid {
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    gap: 4px;
+    padding: 10px;
+    text-align: left;
+}
+#inline-search-results.grid > h2,
+#inline-search-results.grid > .view-all {
+    grid-column: 1 / -1;
+}
+#inline-search-results.grid .search-result {
+    display: block;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+}
+#inline-search-results.grid .search-result:hover {
+    opacity: 1;
+    background: #f7f7f7;
+}
+#inline-search-results.grid .search-result img {
+    width: 100% !important;
+    height: 110px !important;
+    max-width: 100% !important;
+    margin: 0 0 8px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #f3f3f3;
+}
+#inline-search-results.grid .search-result h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+    font-weight: 600;
+    color: #222;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#inline-search-results.grid .search-result .search-result-price {
+    display: block;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #cc2936;
+}
+#inline-search-results.grid .search-result p {
+    margin: 3px 0 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.35;
+    color: #888;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+form#searchform input[type=text] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #fff;
+  margin:auto;
+  min-width:50%;
+ 
+}
+input#s2 {
+	padding:10px;
+}
+
+input#s2, #searchform2 {
+	margin:auto;
+}
+.search-overlay {
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+	margin:auto;
+}
+.search-wrapper2 {
+    position: relative;  
+	display:ruby;
+}
+#s {
+    flex-grow: 1; 
+    padding-right: 40px; 
+}
+#voice-search-btn {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border: none;
+    background: none;
+    cursor: pointer;  
+    padding: 10px;
+}
+#voice-search-btn2 {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #333; 
+    padding: 10px;
+}
+#voice-search-btn i, #voice-search-btn2 i {
+    font-size: 20px; 
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.85);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  height:100%;
+  position:fixed;
+  top:20px;
+  z-index:99999;
+}
+.close {
+  float: right;
+    font-weight: bold;
+    position: fixed;
+    top: 25px;
+    right: 0px;
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+    cursor: pointer;
+	z-index:9999;
+}
+.close:hover,
+.close:focus {
+  color: #aaaaaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.view-all {
+    margin-top: 20px;
+	margin-bottom:20px;
+    text-align: center;	
+}
+.view-all .button {
+    margin-top: 20px;
+    text-align: center;
+	outline: none;
+	cursor: pointer;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 1px solid #0077ff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px;
+	margin-left:10px;
+	margin-top:5px;
+	color: #0077ff!important;	
+	min-width:100px;
+}
+.view-all .button:hover {
+    opacity:.75;
+}
+#inline-search-results .view-all {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ececec;
+}
+#inline-search-results .view-all .button {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 13px 16px;
+    border: 0;
+    border-radius: 0;
+    min-width: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #222 !important;
+}
+#inline-search-results .view-all .button:hover {
+    background: #f7f7f7;
+    opacity: 1;
+}
+form#searchform2 .instant-search-submit,
+form#searchform .instant-search-submit {
+  display: none !important;
+}
+.middleform {
+	text-align:center;
+}
+@media only screen and (max-width: 767px) {	
+#search-results {	
+    width: 90%;        
+    padding: 5px;    
+}
+#search-results.list .search-result {      
+    width: 90%; 
+    padding: 5px;
+}
+#search-results.grid .search-result {  
+    width: 40%;   
+}
+form#searchform input[type=text] { 
+  min-width:100%;
+}
+}
