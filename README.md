@@ -6,16 +6,17 @@
 ![License](https://img.shields.io/badge/license-GPLv2-orange)
 [![WordPress.org](https://img.shields.io/badge/Download%20on-WordPress.org-0073aa)](https://wordpress.org/plugins/instant-search/)
 
-> A lightweight, fast live search plugin for WordPress. Results appear as you type — no page reload needed.
+> A lightweight, fast live search plugin for WordPress.
 
 ---
 
 ## What it does
 
 Instant Search adds a search form to your WordPress site. Visitors see results the moment they start typing. No waiting, no page reloads. They can also search by voice: just tap the microphone and speak.
+
 Works with any theme and WooCommerce out of the box: shops, blogs, portfolios, directories.
 
-Add [instant_search] to any page, post, widget, or header to display the search form.
+Add `[instant_search]` to any page, post, widget, or header to display the search form.
 
 ---
 
@@ -40,52 +41,63 @@ Or search for **"Instant Search"** directly in the WordPress plugin directory.
 
 The free version covers the essentials. **Instant Search PRO** takes it further:
 
-Live search: results appear instantly as visitors type, no page reload
-Voice search: tap the microphone and speak instead of typing
-Five layouts: List, Grid, Compact, Big Cards, and Masonry
-Inline or overlay mode: show results under the search bar or in a full overlay
-WooCommerce ready: search products by title, content, excerpt, and SKU. Add to cart and direct checkout from search results.
-Show product details: price, sale badge, stock status, and star ratings right in the results
-Add to Cart & Buy Now: visitors can buy directly from the search dropdown
-Quick View: product gallery, description, and variations in a popup
-Wishlist & Compare: save products or compare up to 4 side by side, no extra plugins
-Variation selector: pick size, color, etc. right inside search results
-Zero-results rescue: “Did you mean?” suggestions, best-seller fallback, or a custom message
-Pinned results & boost rules: pin products to specific keywords, boost best-sellers, newest, or featured items
-Search everywhere: taxonomies, product attributes, custom fields, and ACF
-Synonyms & typo tolerance: “laptop” finds “notebook,” and “shooes” still finds shoes
-Exclude & filter: hide out-of-stock, hide parent products, restrict to logged-in users, exclude by taxonomy
-Recently viewed: show the visitor’s last viewed products when search is empty
-Search analytics: top search terms, click-through rate, cart conversions, zero-results report
-Searches-per-day chart: daily volume with CTR overlay for the last 30 days
-Weekly email report: top searches summary delivered every Monday
-CSV export: download all search data for external analysis
-Floating search button: always-visible search on every page
-Keyboard shortcut: Cmd/Ctrl+K opens search from anywhere
-Search history: shows the visitor’s recent queries
-Auto-focus: cursor jumps to search on page load
-Brand colors: tint the UI to match your brand
-Dark mode: Light, Dark, or Auto theme preset
-Open animations: smooth motion when results appear
-Custom CSS: full control for pixel-perfect tweaks
-Responsive: separate width controls for desktop, tablet, and phone
-Works with any theme: tested with Divi, Elementor, Rey, Astra, GeneratePress, Kadence, and block themes
-Self-hosted & private: no external services, no data leaves your server
+**Search & Results**
+- Live search: results appear instantly as visitors type, no page reload
+- Voice search: tap the microphone and speak instead of typing
+- Synonyms & typo tolerance: "laptop" finds "notebook," and "shooes" still finds shoes
+- Zero-results rescue: "Did you mean?" suggestions, best-seller fallback, or a custom message
+- Search everywhere: taxonomies, product attributes, custom fields, and ACF
+- Recently viewed: show the visitor's last viewed products when search is empty
 
-👉 **[Learn more about Instant Search PRO](https://www.marincas.net/instant-search/)**
+**Display & Layouts**
+- Five layouts: List, Grid, Compact, Big Cards, and Masonry
+- Inline or overlay mode: show results under the search bar or in a full overlay
+- Show product details: price, sale badge, stock status, and star ratings right in the results
+- Variation selector: pick size, color, etc. right inside search results
+
+**WooCommerce**
+- WooCommerce ready: search products by title, content, excerpt, and SKU
+- Add to Cart & Buy Now: visitors can buy directly from the search dropdown
+- Quick View: product gallery, description, and variations in a popup
+- Wishlist & Compare: save products or compare up to 4 side by side, no extra plugins
+
+**Merchandising**
+- Pinned results & boost rules: pin products to specific keywords, boost best-sellers, newest, or featured items
+- Exclude & filter: hide out-of-stock, hide parent products, restrict to logged-in users, exclude by taxonomy
+
+**Analytics**
+- Search analytics: top search terms, click-through rate, cart conversions, zero-results report
+- Searches-per-day chart: daily volume with CTR overlay for the last 30 days
+- Weekly email report: top searches summary delivered every Monday
+- CSV export: download all search data for external analysis
+
+**UX & Customization**
+- Floating search button: always-visible search on every page
+- Keyboard shortcut: Cmd/Ctrl+K opens search from anywhere
+- Search history: shows the visitor's recent queries
+- Auto-focus: cursor jumps to search on page load
+- Brand colors: tint the UI to match your brand
+- Dark mode: Light, Dark, or Auto theme preset
+- Open animations: smooth motion when results appear
+- Custom CSS: full control for pixel-perfect tweaks
+- Responsive: separate width controls for desktop, tablet, and phone
+- Works with any theme: tested with Divi, Elementor, Rey, Astra, GeneratePress, Kadence, and block themes
+- Self-hosted & private: no external services, no data leaves your server
+
+👉 **[Get Instant Search PRO](https://www.marincas.net/instant-search/)**
 
 ---
 
 ## Screenshots
 
-![alt text](https://ps.w.org/instant-search/assets/screenshot-1.png)
-![alt text](https://ps.w.org/instant-search/assets/screenshot-2.png)
-![alt text](https://ps.w.org/instant-search/assets/screenshot-3.png)
-![alt text](https://ps.w.org/instant-search/assets/screenshot-4.png)
-![alt text](https://ps.w.org/instant-search/assets/screenshot-5.png)
-![alt text](https://ps.w.org/instant-search/assets/screenshot-6.png)
-![alt text](https://ps.w.org/instant-search/assets/screenshot-7.png)
-![alt text](https://ps.w.org/instant-search/assets/screenshot-8.png)
+![General settings](https://ps.w.org/instant-search/assets/screenshot-1.png)
+![Display settings](https://ps.w.org/instant-search/assets/screenshot-2.png)
+![Search sources](https://ps.w.org/instant-search/assets/screenshot-3.png)
+![Analytics](https://ps.w.org/instant-search/assets/screenshot-4.png)
+![Advanced settings](https://ps.w.org/instant-search/assets/screenshot-5.png)
+![License settings](https://ps.w.org/instant-search/assets/screenshot-6.png)
+![WooCommerce settings](https://ps.w.org/instant-search/assets/screenshot-7.png)
+![Search in action](https://ps.w.org/instant-search/assets/screenshot-8.png)
 
 ---
 
